@@ -1,0 +1,4 @@
+torch            # PyTorch library
+transformers     # Transformers library for pre-trained models
+Pillow           # Python Imaging Library for image processing
+flask            # Flask web framework
