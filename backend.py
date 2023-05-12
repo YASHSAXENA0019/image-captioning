@@ -23,7 +23,7 @@ num_beams = 15
 gen_kwargs = {"max_length": max_length, "num_beams": num_beams}
 
 
-def predict_step(image_paths, num_captions):
+def predict_step(image_paths, num_captions=1):
     images = []
     
     # Load and preprocess the input images

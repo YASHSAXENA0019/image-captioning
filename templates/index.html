@@ -6,8 +6,10 @@
 <body>
     <h1>Image Captioning</h1>
     <form action="/upload" method="post" enctype="multipart/form-data">
-        <input type="file" name="image" accept="image/*">
-        <input type="submit" value="Upload">
-    </form>
+        <input type="file" name="image">
+        <label for="num_captions">Number of Captions:</label>
+        <input type="number" name="num_captions" value="1" min="1">
+        <input type="submit" value="Upload and Generate Captions">
+      </form>      
 </body>
 </html>
