@@ -7,13 +7,13 @@ This project is a Flask-based web application that utilizes a pre-trained image 
 1. Clone the repository to your local machine:
 
 ```
-git clone https://github.com/your-username/image-captioning-web-app.git
+git clone https://github.com/your-username/image-captioning.git
 ```
 
 2. Install the required dependencies. It is recommended to use a virtual environment for this step:
 
 ```
-cd image-captioning-web-app
+cd image-captioning
 pip install -r requirements.txt
 ```
 
@@ -69,6 +69,3 @@ The project consists of the following files:
 
 Contributions to this project are welcome. If you encounter any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
